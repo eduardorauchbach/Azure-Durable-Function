@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Azure.Durable.Functions.Functions.CustomStatus
+namespace Azure.Durable.Functions.Functions.Auxiliar
 {
     internal class OrchestrationInformation
     {

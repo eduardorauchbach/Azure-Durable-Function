@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Azure.Durable.Functions.Functions
+namespace Azure.Durable.Functions.Functions.Auxiliar
 {
     internal static class RequestHelper
     {

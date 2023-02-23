@@ -1,4 +1,5 @@
-﻿using Azure.Durable.Functions.Services;
+﻿using Azure.Durable.Functions.Functions.Auxiliar;
+using Azure.Durable.Functions.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
@@ -20,6 +21,7 @@ namespace Azure.Durable.Functions.Functions
             _sampleService = sampleService;
         }
 
+        //Todo: OPEN API
         [FunctionName("sample1")]
         public async Task<int?> Sample1(
         [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req)
