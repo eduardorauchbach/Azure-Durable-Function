@@ -5,7 +5,10 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Durable.Functions", "Azure.Durable.Functions\Azure.Durable.Functions.csproj", "{087780C5-3446-4588-AA16-B7B7B0240C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure.Durable.Functions.Tests", "Azure.Durable.Functions.Tests\Azure.Durable.Functions.Tests.csproj", "{8694232D-334B-4FBF-9973-F55112E0A1FD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1D8F921-40B3-466E-A095-4917F3E48F0E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,6 @@ Global
 		{087780C5-3446-4588-AA16-B7B7B0240C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087780C5-3446-4588-AA16-B7B7B0240C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087780C5-3446-4588-AA16-B7B7B0240C5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8694232D-334B-4FBF-9973-F55112E0A1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8694232D-334B-4FBF-9973-F55112E0A1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8694232D-334B-4FBF-9973-F55112E0A1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8694232D-334B-4FBF-9973-F55112E0A1FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
