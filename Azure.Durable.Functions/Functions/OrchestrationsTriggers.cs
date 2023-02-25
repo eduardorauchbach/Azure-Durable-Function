@@ -26,7 +26,7 @@ namespace Azure.Durable.Functions.Functions
 
         [FunctionName("Sample_Orchestration_HttpStart")]
         public async Task<IActionResult> DisassembleStart(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "process-disassemble-stage")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "process-sample-stage")] HttpRequest req,
             [DurableClient] IDurableOrchestrationClient starter)
         {
             var operationID = req.GetOperationID();
