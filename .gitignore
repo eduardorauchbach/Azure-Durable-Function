@@ -7,3 +7,6 @@
 *.v2
 *.testlog
 /.vs/Azure.Durable.Functions/v17/TestStore/0/testlog.manifest
+*.1
+/Azure.Durable.Functions/bin/Debug/net6.0
+/Azure.Durable.Functions/obj
