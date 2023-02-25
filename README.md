@@ -129,7 +129,8 @@ Sample3 ==> Sun
 ```
 
 # **Configuration**
-
+**${\color{red} {!!}}$** No configurations required to run locally
+<br>
 | **Name** | **Description** |
 |--|--|
 |**FUNCTIONS_EXTENSION_VERSION**| Runtime version|
@@ -138,6 +139,6 @@ Sample3 ==> Sun
 |**APPINSIGHTS_INSTRUMENTATIONKEY**| The instrumentation key for Application Insights|
 |**APPLICATIONINSIGHTS_CONNECTION_STRING**| Application Insights connection, used by the logs|
 |**StatusURL**| Url with 4 **string format** places, <span style="color:cyan">protocol</span>, <span style="color:cyan">host</span>, <span style="color:cyan">instanceID</span> and <span style="color:cyan">subscription key</span> <br/> `{0}://{1}/api/status/{2}?subscription-key={3}` |
-|**LogLevel**| Minimum Log Level to be generated, from [**Cofco.Common.Logging**](/Home/7.-Code-Mapping-and-Documentation/Nuget/Cofco.Common.Logging)|
+|**LogLevel**| Minimum Log Level to be generated, from [**RauchTech.Logging**](https://github.com/eduardorauchbach/Rauchtech.Logging))|
 |**WEBSITE_ENABLE_SYNC_UPDATE_SITE**| Definition for synchronous deployment|
 <br/>
