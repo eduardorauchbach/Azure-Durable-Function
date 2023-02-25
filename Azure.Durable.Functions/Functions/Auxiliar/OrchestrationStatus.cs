@@ -10,7 +10,6 @@ namespace Azure.Durable.Functions.Functions.Auxiliar
         {
             Steps = steps.Select(x => new OrchestrationStep(x, OrchestrationStatus.None)).ToList();
         }
-
         public void SetStatus(IDurableOrchestrationContext context, string step, OrchestrationStatus status)
         {
             Steps.First(x => x.Step == step).SetStatus(status);

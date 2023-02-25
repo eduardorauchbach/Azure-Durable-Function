@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace Azure.Durable.Functions.Functions
 {
-    internal class SampleFunction
+    internal class SampleFunctions
     {
-        private readonly ICustomLog<SampleFunction> _logger;
+        private readonly ICustomLog<SampleFunctions> _logger;
         private readonly ISampleService _sampleService;
 
-        public SampleFunction(ICustomLog<SampleFunction> logger, ISampleService sampleService)
+        public SampleFunctions(ICustomLog<SampleFunctions> logger, ISampleService sampleService)
         {
             _logger = logger;
             _sampleService = sampleService;

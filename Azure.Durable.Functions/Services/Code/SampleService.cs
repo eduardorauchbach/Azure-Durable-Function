@@ -1,8 +1,5 @@
 ﻿using Rauchtech.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Azure.Durable.Functions.Services.Code
@@ -28,7 +25,7 @@ namespace Azure.Durable.Functions.Services.Code
         [LogAspect]
         public async Task<int> SampleMethod2(int seed)
         {
-            var delay = new Random(seed).Next(1000, 10000);
+            var delay = new Random(seed * 2).Next(1000, 10000);
             await Task.Delay(delay);
 
             return delay;
@@ -37,7 +34,7 @@ namespace Azure.Durable.Functions.Services.Code
         [LogAspect]
         public async Task<int> SampleMethod3(int seed)
         {
-            var delay = new Random(seed).Next(1000, 10000);
+            var delay = new Random(seed * 3).Next(1000, 10000);
             await Task.Delay(delay);
 
             return delay;

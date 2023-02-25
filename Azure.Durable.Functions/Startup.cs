@@ -1,5 +1,6 @@
 ﻿using Azure.Durable.Functions;
 using Azure.Durable.Functions.Configurations;
+using Azure.Durable.Functions.Services;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +33,7 @@ namespace Azure.Durable.Functions
         public static void ConfigureServices(IServiceCollection services)
         {
             services.RegisterCustomLogs();
+            services.RegisterServicesModule();
         }
     }
 }
