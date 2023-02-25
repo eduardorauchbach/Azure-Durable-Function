@@ -129,7 +129,8 @@ Sample3 ==> Sun
 ```
 
 # **Configuration**
-
+**${\color{red} {!!}}$** No configurations required to run locally
+<br>
 | **Name** | **Description** |
 |--|--|
 |**FUNCTIONS_EXTENSION_VERSION**| Runtime version|
