@@ -17,7 +17,7 @@ Sample2["Sample 2"]
 Sample3["Sample 3"]
 
 Out("Out")
-style Sun stroke:green,stroke-width:2px
+style Out stroke:green,stroke-width:2px
 
 Trigger ==Seed?==> Sample1
 
@@ -66,7 +66,7 @@ Status("Status")
 style Status stroke:cyan,stroke-width:2px
 
 Out("Out")
-style Sun stroke:green,stroke-width:2px
+style Out stroke:green,stroke-width:2px
 
 SampleOrchestration<-->Status
 
