@@ -16,15 +16,15 @@ Sample1["Sample 1"]
 Sample2["Sample 2"]
 Sample3["Sample 3"]
 
-Sun("Out")
-style Sun stroke:green,stroke-width:2px
+Out("Out")
+style Out stroke:green,stroke-width:2px
 
 Trigger ==Seed?==> Sample1
 
 Sample1 --Seed?-->Sample2
 Sample2 --Seed?-->Sample3
 
-Sample3 ==> Sun
+Sample3 ==> Out
 ```
 
 ## Endpoints
@@ -65,8 +65,8 @@ end
 Status("Status")
 style Status stroke:cyan,stroke-width:2px
 
-Sun("Sun")
-style Sun stroke:green,stroke-width:2px
+Out("Out")
+style Out stroke:green,stroke-width:2px
 
 SampleOrchestration<-->Status
 
@@ -75,7 +75,7 @@ Trigger ==Seed?==> Sample1
 Sample1 --Seed?-->Sample2
 Sample2 --Seed?-->Sample3
 
-Sample3 ==> Sun
+Sample3 ==> Out
 ```
 
 ## Endpoints
