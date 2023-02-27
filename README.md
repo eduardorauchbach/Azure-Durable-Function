@@ -75,7 +75,7 @@ Trigger ==Seed?==> Sample1
 Sample1 --Seed?-->Sample2
 Sample2 --Seed?-->Sample3
 
-Sample3 ==> Sun
+Sample3 ==> Out
 ```
 
 ## Endpoints
